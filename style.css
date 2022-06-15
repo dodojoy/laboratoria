@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #E0FFFF
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.titulo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    color: #00BFFF;
+    text-shadow: rgb(122, 122, 122) 0.1em 0.1em 0.2em;
+}
+
+.div-boas-vindas {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.boas-vindas {
+    opacity: 1;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+
+input[type="text"] {
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 15px;
+    color: #7cbdd3;
+}
+
+input[type="text"]::placeholder {
+    color: gray;
+}
+
+.input-text-submit {
+    height: 100%;
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 60px;
+}
+    
+
+.form-1, .form-2, .form-3 {
+    max-width: 300px;
+    height: 350px;
+    background-color: #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 0 1em #c7c8ca3b;
+    text-align: center;
+}
+
+.perguntas {
+    width: 100%;
+    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+h2 {
+    color: black;
+    margin-bottom: 40px;
+    text-shadow: 0.1em 0.1em 0.2em #696b6b6e;
+}
+
+.pergunta-1, .pergunta-2, .pergunta-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.input-submit {
+    width: 100%;
+    margin-top: 35px;
+    height: 32px;
+    background-color: #00BFFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+input[type="radio"] {
+    margin-bottom: 15px;
+}
+
+label {
+    color: gray;
+}
+
+    
